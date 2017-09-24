@@ -32,7 +32,7 @@ def buttonPress(event):
         headers = {
         # Request headers
         'Content-Type': 'application/json',
-        'Ocp-Apim-Subscription-Key': 'da5136621ea744a689f655aeedee3d44',
+        'Ocp-Apim-Subscription-Key': '<subscription_key>',
     }
     else:
         with open(url, "rb") as imageFile:
@@ -43,7 +43,7 @@ def buttonPress(event):
         headers = {
             # Request headers
             'Content-Type': 'application/octet-stream',
-            'Ocp-Apim-Subscription-Key': 'da5136621ea744a689f655aeedee3d44',
+            'Ocp-Apim-Subscription-Key': '<subscription_key>',
         }
 
     params = urllib.parse.urlencode({})
