@@ -2,9 +2,6 @@ import http.client, urllib, urllib.request, base64, json, copy, array
 import tkinter, tkinter.font
 import PIL
 from PIL import Image, ImageFilter
-import sys
-
-print (sys.path)
 
 color = "Deep Sky Blue"
 
